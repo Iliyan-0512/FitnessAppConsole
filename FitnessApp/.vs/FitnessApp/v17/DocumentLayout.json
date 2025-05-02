@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\iliyan\\proggraming\\task\\SWU\\FitnessAppConsole\\FitnessApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C877F195-33F5-4223-969A-EEB270861D09}|FitnessApp\\FitnessApp.csproj|c:\\iliyan\\proggraming\\task\\swu\\fitnessappconsole\\fitnessapp\\fitnessapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C877F195-33F5-4223-969A-EEB270861D09}|FitnessApp\\FitnessApp.csproj|solutionrelative:fitnessapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C877F195-33F5-4223-969A-EEB270861D09}|FitnessApp\\FitnessApp.csproj|c:\\iliyan\\proggraming\\task\\swu\\fitnessappconsole\\fitnessapp\\fitnessapp\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C877F195-33F5-4223-969A-EEB270861D09}|FitnessApp\\FitnessApp.csproj|solutionrelative:fitnessapp\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C877F195-33F5-4223-969A-EEB270861D09}|FitnessApp\\FitnessApp.csproj|c:\\iliyan\\proggraming\\task\\swu\\fitnessappconsole\\fitnessapp\\fitnessapp\\progresstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C877F195-33F5-4223-969A-EEB270861D09}|FitnessApp\\FitnessApp.csproj|solutionrelative:fitnessapp\\progresstracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C877F195-33F5-4223-969A-EEB270861D09}|FitnessApp\\FitnessApp.csproj|c:\\iliyan\\proggraming\\task\\swu\\fitnessappconsole\\fitnessapp\\fitnessapp\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C877F195-33F5-4223-969A-EEB270861D09}|FitnessApp\\FitnessApp.csproj|solutionrelative:fitnessapp\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C877F195-33F5-4223-969A-EEB270861D09}|FitnessApp\\FitnessApp.csproj|c:\\iliyan\\proggraming\\task\\swu\\fitnessappconsole\\fitnessapp\\fitnessapp\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C877F195-33F5-4223-969A-EEB270861D09}|FitnessApp\\FitnessApp.csproj|solutionrelative:fitnessapp\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "C:\\iliyan\\proggraming\\task\\SWU\\FitnessAppConsole\\FitnessApp\\FitnessApp\\Schedule.cs",
+              "RelativeDocumentMoniker": "FitnessApp\\Schedule.cs",
+              "ToolTip": "C:\\iliyan\\proggraming\\task\\SWU\\FitnessAppConsole\\FitnessApp\\FitnessApp\\Schedule.cs",
+              "RelativeToolTip": "FitnessApp\\Schedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:56:43.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\iliyan\\proggraming\\task\\SWU\\FitnessAppConsole\\FitnessApp\\FitnessApp\\Gender.cs",
+              "RelativeDocumentMoniker": "FitnessApp\\Gender.cs",
+              "ToolTip": "C:\\iliyan\\proggraming\\task\\SWU\\FitnessAppConsole\\FitnessApp\\FitnessApp\\Gender.cs",
+              "RelativeToolTip": "FitnessApp\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:37:51.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProgressTracker.cs",
+              "DocumentMoniker": "C:\\iliyan\\proggraming\\task\\SWU\\FitnessAppConsole\\FitnessApp\\FitnessApp\\ProgressTracker.cs",
+              "RelativeDocumentMoniker": "FitnessApp\\ProgressTracker.cs",
+              "ToolTip": "C:\\iliyan\\proggraming\\task\\SWU\\FitnessAppConsole\\FitnessApp\\FitnessApp\\ProgressTracker.cs",
+              "RelativeToolTip": "FitnessApp\\ProgressTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:32:17.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\iliyan\\proggraming\\task\\SWU\\FitnessAppConsole\\FitnessApp\\FitnessApp\\Person.cs",
+              "RelativeDocumentMoniker": "FitnessApp\\Person.cs",
+              "ToolTip": "C:\\iliyan\\proggraming\\task\\SWU\\FitnessAppConsole\\FitnessApp\\FitnessApp\\Person.cs",
+              "RelativeToolTip": "FitnessApp\\Person.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:23:28.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\iliyan\\proggraming\\task\\SWU\\FitnessAppConsole\\FitnessApp\\FitnessApp\\User.cs",
+              "RelativeDocumentMoniker": "FitnessApp\\User.cs",
+              "ToolTip": "C:\\iliyan\\proggraming\\task\\SWU\\FitnessAppConsole\\FitnessApp\\FitnessApp\\User.cs",
+              "RelativeToolTip": "FitnessApp\\User.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T20:04:51.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
