@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
@@ -14,7 +14,33 @@ namespace FitnessApp
 
 //Checking if the subscription is still valid
 
-    internal class Membership
-    {
+        public class Membership
+        {
+            public string CustomerName { get; set; }
+
+            public DateTime StartDate { get; set; }
+
+            public DateTime EndDate { get; set; }
+
+            public Membership(string customerName, DateTime startDate, DateTime endDate)
+            {
+                CustomerName = customerName;
+                StartDate = startDate;
+                EndDate = endDate;
+            }
+
+            // Method for checking if the subscription is valid
+            public bool IsActive()
+            {
+                DateTime today = DateTime.Today;
+                return today >= StartDate && today <= EndDate;
+            }
+
+            public void ShowInfo()
+            {
+                Console.WriteLine($"Customer: {CustomerName}");
+                Console.WriteLine($"Membership: {StartDate.ToShortDateString()} - {EndDate.ToShortDateString()}");
+                Console.WriteLine($"Status: {(IsActive() ? "Active" : "Inactive")}");
+            }
+        }
     }
-}
