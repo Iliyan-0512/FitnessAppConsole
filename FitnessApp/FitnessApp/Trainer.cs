@@ -1,15 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FitnessApp
 {
-    // Who he is: a gym employee who brings clients in and sets up their programs.
-    //Назначаване на тренировка на потребител
-    // Генериране на тренировъчен план
-    internal class Trainer
+    // A gym employee who assigns workouts to users
+    internal class Trainer : Person
     {
+        public List<User> Clients { get; set; } = new List<User>();
+
+        // Assign workout to a user
+        public void AssignWorkout(User user, Workout workout, DayOfWeek day)
+        {
+            user.Schedule.SetWorkout(day, workout);
+            Console.WriteLine($"Assigned {workout.Name} to {user.Name} on {day}.");
+        }
+
+        public override void ShowInfo()
+        {
+            Console.WriteLine($"Trainer: {Name}, Age: {Age}, Clients: {Clients.Count}");
+        }
     }
 }

@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.VisualBasic;
-
-namespace FitnessApp
+﻿namespace FitnessApp
 {
-    
-    //What it is: one meal from the regimen - e.g. "Breakfast "Calculation of calories: (protein + carbs) × 4 + fat × 9
+    // Represents one meal from the nutrition plan
     internal class Meal
     {
+        public string Name { get; set; }
+        public int Protein { get; set; }
+        public int Carbs { get; set; }
+        public int Fat { get; set; }
+
+        // Calories: (protein + carbs) * 4 + fat * 9
+        public int CalculateCalories()
+        {
+            return (Protein + Carbs) * 4 + Fat * 9;
+        }
     }
 }

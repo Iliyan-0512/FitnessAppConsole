@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FitnessApp
+﻿internal class Exercise
 {
-    //What it is: one specific movement - squat, lunge, etc.
-    //    Изчисляване на тренировъчен обем(sets × reps × weight)
-    internal class Exercise
+    public string Name { get; set; }
+    public int Repetitions { get; set; }
+    public double WeightKg { get; set; }
+
+    public Exercise(string name, int reps, double weight)
     {
+        Name = name;
+        Repetitions = reps;
+        WeightKg = weight;
     }
 }

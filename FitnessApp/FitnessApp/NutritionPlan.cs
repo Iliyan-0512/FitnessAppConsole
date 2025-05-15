@@ -1,14 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FitnessApp
 {
-    //What it is: a list of meals the client follows.
-    //Total calories for the day
+    // List of meals the client follows
     internal class NutritionPlan
     {
+        public List<Meal> Meals { get; set; }
+
+        public NutritionPlan()
+        {
+            Meals = new List<Meal>();
+        }
+
+        // Total calories for the day
+        public int TotalCalories()
+        {
+            return Meals.Sum(m => m.CalculateCalories());
+        }
     }
 }
